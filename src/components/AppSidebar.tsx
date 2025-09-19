@@ -45,6 +45,9 @@ const navigation = [
     title: "Trading",
     url: "/trading",
     icon: ArrowRightLeft,
+    submenu: [
+      { title: "Add Purchase", url: "/trading/purchase" },
+    ]
   },
   {
     title: "Expense",
